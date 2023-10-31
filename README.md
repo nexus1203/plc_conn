@@ -34,14 +34,15 @@ print(op)  # "success" or "failure" or "unconfirmed"
 
 # Supported PLC Types
 Mitsubishi:
-"MEL_FX5U" - Mitsubishi FX5U
-"MEL_QSER" - Mitsubishi Qseries
-"MEL_FX3U" - Mitsubishi FX3U
+- "MEL_FX5U" - Mitsubishi FX5U
+- "MEL_QSER" - Mitsubishi Qseries
+- "MEL_FX3U" - Mitsubishi FX3U
+  
 Siemens:
-"SMN_S300" - SIEMENS S300
-"SMN_S1200" - SIEMENS S1200
-"SMN_S1500" - SIEMENS S1500
-"SMN_S200" - SIEMENS S200 smart
+- "SMN_S300" - SIEMENS S300
+- "SMN_S1200" - SIEMENS S1200
+- "SMN_S1500" - SIEMENS S1500
+- "SMN_S200" - SIEMENS S200 smart
 For any other PLC type you may open an issue, I will try my best to add the functionality.
 
 # License
