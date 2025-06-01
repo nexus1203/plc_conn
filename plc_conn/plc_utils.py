@@ -7,7 +7,8 @@ python_version = 'v' + str(version.major) + str(version.minor)
 print("______using python version: {}_______".format(python_version))
 module_path = f".__versions.{python_version}.plc_com"
 plc_com = importlib.import_module(module_path, package=__package__)
-# from plc_worker._version.python_version import plc_com
+plc_com.StringResources.Language = plc_com.English()
+
 import logging, os
 from datetime import datetime
 from time import perf_counter as pf
